@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Lighting Files">
+      <UniqueIdentifier>{46c47e67-d376-4a5c-a46d-fd3efcf1fac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lighting Files\Ambient Lighting">
+      <UniqueIdentifier>{c9c02585-94dc-46ae-b1a3-df20855fd196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lighting Files\Directional Lighting">
+      <UniqueIdentifier>{31164abb-4c34-4ee5-8379-477993fd96ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model Files">
+      <UniqueIdentifier>{267fc2a6-77d4-42d6-aca2-fd1a33f9fd73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lighting Files\POLYCOLOR">
+      <UniqueIdentifier>{f17fbb1e-dc92-491f-b766-778b89659ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General Files">
+      <UniqueIdentifier>{73e9240e-a95f-44cf-b047-ecc3b1cb8a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General Files\Camera">
+      <UniqueIdentifier>{96c32094-c251-40c5-afee-30d8d690c6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General Files\Bitmap">
+      <UniqueIdentifier>{880d87f8-cae0-4dfd-8eb6-2abc8b3e87cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General Files\Framework">
+      <UniqueIdentifier>{473b6bbd-b269-4459-b87e-b1e06e92e218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General Files\Matrix">
+      <UniqueIdentifier>{b2a8f741-db4e-48d4-b20c-b66fc739b7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General Files\Vector">
+      <UniqueIdentifier>{300b6930-208d-4548-b352-db497ff8c011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General Files\Rasteriser">
+      <UniqueIdentifier>{a52d6337-b4a2-4547-bdfa-aaf5e16ea0dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model Files\Model">
+      <UniqueIdentifier>{670c14b8-9830-4298-85d3-b3b601eda222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model Files\MD2 Loader">
+      <UniqueIdentifier>{7341827c-8770-4ea8-81c4-bf7c378e7521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model Files\Vertex">
+      <UniqueIdentifier>{d9f84bc1-c84d-4a7c-90fd-0bd24ad2cd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model Files\Polygons">
+      <UniqueIdentifier>{9b170004-0bd9-431f-93e1-054df6d7a99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lighting Files\Point Lighting">
+      <UniqueIdentifier>{39881faf-2545-4cd1-a2df-291fc4653dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General Files\float Points">
+      <UniqueIdentifier>{50a08c95-e47b-4d0e-ad63-486c6ea1c0a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AmbientLight.h">
+      <Filter>Lighting Files\Ambient Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Lighting Files\Directional Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="POLYCOLOR.h">
+      <Filter>Lighting Files\POLYCOLOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MD2Loader.h">
+      <Filter>Model Files\MD2 Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon3D.h">
+      <Filter>Model Files\Polygons</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Model Files\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>General Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>General Files\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>General Files\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.h">
+      <Filter>General Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Rasteriser.h">
+      <Filter>General Files\Rasteriser</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>General Files\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Lighting Files\Point Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="FPoint.h">
+      <Filter>General Files\float Points</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AmbientLight.cpp">
+      <Filter>Lighting Files\Ambient Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Lighting Files\Directional Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="POLYCOLOR.cpp">
+      <Filter>Lighting Files\POLYCOLOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MD2Loader.cpp">
+      <Filter>Model Files\MD2 Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon3D.cpp">
+      <Filter>Model Files\Polygons</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Model Files\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>General Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>General Files\Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>General Files\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework.cpp">
+      <Filter>General Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Rasteriser.cpp">
+      <Filter>General Files\Rasteriser</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>General Files\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Lighting Files\Point Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="FPoint.cpp">
+      <Filter>General Files\float Points</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Rasteriser.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Rasteriser.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
